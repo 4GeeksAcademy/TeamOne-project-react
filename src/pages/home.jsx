@@ -13,7 +13,7 @@ const Home = () => {
 		for ( let i = 0; i < count ; i++ ) {
 			cards.push (
 				<>
-					<div key={i} className="col-12 col-md-6 col-lg-3">
+					<div key={i} className="card col-12 col-md-6 col-lg-3" >
 						<Card />
 					</div>
 				</>
@@ -29,7 +29,7 @@ const Home = () => {
 			<div>
 				<Jumbotron />
 			</div>
-			<div className="row"> {repeatCards(4)}</div>
+			<div className="row"> {repeatCards(4)} </div>
 			<div>
 				<Footer />
 			</div>
