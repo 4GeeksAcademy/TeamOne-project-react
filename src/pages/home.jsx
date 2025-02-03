@@ -29,7 +29,7 @@ const Home = () => {
 			<div>
 				<Jumbotron />
 			</div>
-			<div className="row"> {repeatCards(4)} </div>
+			<div className="row container-fluid  py-5"> {repeatCards(4)} </div>
 			<div>
 				<Footer />
 			</div>
