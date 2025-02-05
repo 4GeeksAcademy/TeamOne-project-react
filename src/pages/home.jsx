@@ -43,5 +43,3 @@ const Home = () => {
 
 export default Home;
 
-// En general hice el navbar yo despues de hacer las card, seguir en clases el home.jsx 
-// y con grtupo con angel daniel el hiciera el footer, yo el jumbotron y entre ambos hicieramos las cards al menos lo principal y dificl
